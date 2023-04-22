@@ -25,7 +25,7 @@ const initializeDBAndServer = async () => {
 };
 initializeDBAndServer();
 
-let = changeDBObjectToResponseObject = (dBObject) => {
+let changeDBObjectToResponseObject = (dBObject) => {
   return {
     movieId: dBObject.movie_id,
     directorId: dBObject.director_id,
